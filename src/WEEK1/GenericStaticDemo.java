@@ -1,6 +1,6 @@
 package WEEK1;
 
-public class GenericStsticDemo {
+public class GenericStaticDemo {
     static <T> void gPrint(T t) {
         System.out.println(t);
     }
