@@ -61,7 +61,9 @@
 //    }
 //
 //    void reverseArray(S[] s) {
-//        int front = 0, rear = s.length - 1;
+//        int front = 0;
+//        int rear = s.length - 1;
+//
 //        S temp;
 //
 //        while (front < rear) {
