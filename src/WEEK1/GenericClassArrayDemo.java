@@ -41,5 +41,21 @@ public class GenericClassArrayDemo {
         aInt.printData(x);
         aInt.reverseArray(x);
         aInt.printData(x);
+
+        String[] y = {"A", "B", "C", "D", "E"};
+
+        GenericArray<String> bString = new GenericArray<String>(y);
+
+        bString.printData(y);
+        bString.reverseArray(y);
+        bString.printData(y);
+
+        Double[] z = {1.2, 2.3, 3.4, 4.5, 5.6};
+
+        GenericArray<Double> cDouble = new GenericArray<Double>(z);
+
+        cDouble.printData(z);
+        cDouble.reverseArray(z);
+        cDouble.printData(z);
     }
 }
