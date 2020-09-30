@@ -16,7 +16,7 @@ class Animal {
 }
 
 class Aquatic extends Animal {
-    boolean scale; // true: has scale, false: no scale
+    boolean scale;
 
     Aquatic(long years, float kgs, boolean skin) {
         super(years, kgs);
