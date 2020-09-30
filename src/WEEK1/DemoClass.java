@@ -10,6 +10,6 @@ public class DemoClass {
 
         aObj.genericPrint(101);
         aObj.genericPrint("Joy with Java");
-        aObj.genericPrint(3.1412343);
+        aObj.genericPrint(3.1412343234);
     }
 }
