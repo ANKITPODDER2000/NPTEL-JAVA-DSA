@@ -2,8 +2,12 @@ package WEEK1;
 
 public class DemoClass {
     <T> void genericPrint(T t) {
-        for(int i = 0; i < 10; i++)
-        {
+        for(int i = 0; i < 20; i++) {
+            System.out.println(t);
+        }
+        int i = 0;
+
+        while (i < 10) {
             System.out.println(t);
         }
     }
